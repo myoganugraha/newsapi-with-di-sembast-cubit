@@ -1,0 +1,46 @@
+{
+  "asset": "asset:gabut/lib/di/components/app_component.dart",
+  "summary": {
+    "injector": [
+      {
+        "name": "AppComponent",
+        "providers": [
+          {
+            "name": "app",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:gabut/lib/main.dart#GabutMovieApp",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          },
+          {
+            "name": "getRepository",
+            "kind": "method",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:gabut/lib/data/repository.dart#Repository",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": [
+          "asset:gabut/lib/di/modules/networ_module.dart#NetworkModule",
+          "asset:gabut/lib/di/modules/local_module.dart#LocalModule"
+        ]
+      }
+    ],
+    "module": [],
+    "injectable": []
+  }
+}
