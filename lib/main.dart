@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gabut/cubit/news_cubit.dart';
-import 'package:gabut/data/local/datasources/news/news_datasource.dart';
-import 'package:gabut/data/network/API/api.dart';
-import 'package:gabut/data/repository.dart';
+import 'package:gabut/cubit/news/news_cubit.dart';
 import 'package:gabut/di/components/app_component.dart';
 import 'package:gabut/di/modules/local_module.dart';
 import 'package:gabut/di/modules/network_module.dart';
